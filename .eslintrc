@@ -1,0 +1,7 @@
+
+{
+  "extends": "vgno",,
+  "env": {
+      "es6": true
+  }
+}

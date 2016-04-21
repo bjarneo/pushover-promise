@@ -1,0 +1,38 @@
+{
+  "name": "pushover-promise",
+  "version": "1.0.0",
+  "description": "Pushover.net API. Currently supporting Message API.",
+  "keywords": [
+    "pushover",
+    "push",
+    "message",
+    "phone"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "npm test",
+    "posttest": "npm run lint",
+    "test": "mocha -R nyan test/**/*test.js",
+    "lint": "eslint ."
+  },
+  "author": "Bjarne Oeverli <bjarne.oeverli@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bjarneo/pushover-promise.git"
+  },
+  "homepage": "https://github.com/bjarneo/pushover-promise",
+  "bugs": {
+    "url": "https://github.com/bjarneo/pushover-promise/issues"
+  },
+  "devDependencies": {
+    "body-parser": "1.15.0",
+    "eslint": "2.7.0",
+    "eslint-config-vgno": "6.0.0",
+    "express": "4.13.4",
+    "mocha": "2.4.5"
+  },
+  "dependencies": {
+    "got": "6.3.0"
+  }
+}
