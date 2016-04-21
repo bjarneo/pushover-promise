@@ -32,7 +32,6 @@ describe('#Message', function() {
             retry: 30,
             expire: 120
         })
-
         .then(res => {
             assert(res.message === 'Pushover message API is now as a promise');
             assert(res.title === 'Check out my package');
